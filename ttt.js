@@ -1,5 +1,5 @@
 $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '//cdn.jsdelivr.net/gh/2YoungKim/test/fluidbox.min.css') );
-$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '//cdn.jsdelivr.net/gh/coreysnyder04/fluidbox-ghost-blog-plugin@8c04f1180f64a0e434236fdb7f8c28eb120ba395/fluidbox-ghost-blog-plugin.css'') );
+$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '//cdn.jsdelivr.net/gh/coreysnyder04/fluidbox-ghost-blog-plugin@8c04f1180f64a0e434236fdb7f8c28eb120ba395/fluidbox-ghost-blog-plugin.css') );
 
 window.fluidboxGhost = $.when(
   $.getScript( "//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js" ),
