@@ -3,7 +3,7 @@ $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '/
 
 window.fluidboxGhost = $.when(
   $.getScript( "//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js" ),
-  $.getScript( "//cdnjs.cloudflare.com/ajax/libs/fluidbox/2.0.5/js/jquery.fluidbox.min.js" ),
+  $.getScript( "//cdn.jsdelivr.net/gh/2YoungKim/test/epoch.fluidbox.min.js" ),
   $.Deferred(function( deferred ){
     $( deferred.resolve );
   })
