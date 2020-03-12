@@ -1,4 +1,4 @@
-$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '//cdn.jsdelivr.net/gh/2YoungKim/test/fluidbox.min.css') );
+$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '//cdn.jsdelivr.net/gh/2YoungKim/test@857066d669e5ad4e8ccb8f15a7a6854e5b31e3a3/fluidbox.min.css') );
 $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '//cdn.jsdelivr.net/gh/coreysnyder04/fluidbox-ghost-blog-plugin@8c04f1180f64a0e434236fdb7f8c28eb120ba395/fluidbox-ghost-blog-plugin.css') );
 
 window.fluidboxGhost = $.when(
