@@ -63,7 +63,7 @@ window.fluidboxGhost = $.when(
         if(caption && caption.length > 0){
           $('#caption-overlay')
             .addClass('visible')
-            .find('.img-caption').text(caption)
+            .find('.img-caption').html(caption)
         }
       }
     })
